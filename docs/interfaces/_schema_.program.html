@@ -107,12 +107,12 @@
 					<div class="tsd-signature tsd-kind-icon">drop<wbr>Events<span class="tsd-signature-symbol">:</span> <a href="../modules/_schema_.html#tickeddropevent" class="tsd-signature-type">TickedDropEvent</a><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/micahswitzer/vmmx-schema/blob/65a6fbb/src/schema.ts#L69">schema.ts:69</a></li>
+							<li>Defined in <a href="https://github.com/micahswitzer/vmmx-schema/blob/0c17581/src/schema.ts#L69">schema.ts:69</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
 						<div class="lead">
-							<p>All the events that occur during this program. They <em>must</em> be in ascending order by tick.</p>
+							<p>All the <a href="../modules/_schema_.html#tickeddropevent">TickedDropEvent</a>s that occur during this program. They <em>must</em> be in ascending order by tick.</p>
 						</div>
 					</div>
 				</section>
@@ -122,7 +122,7 @@
 					<div class="tsd-signature tsd-kind-icon">metadata<span class="tsd-signature-symbol">:</span> <a href="_schema_.programmetadata.html" class="tsd-signature-type">ProgramMetadata</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/micahswitzer/vmmx-schema/blob/65a6fbb/src/schema.ts#L50">schema.ts:50</a></li>
+							<li>Defined in <a href="https://github.com/micahswitzer/vmmx-schema/blob/0c17581/src/schema.ts#L50">schema.ts:50</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -137,7 +137,7 @@
 					<div class="tsd-signature tsd-kind-icon">state<span class="tsd-signature-symbol">:</span> <a href="_schema_.state.html" class="tsd-signature-type">State</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/micahswitzer/vmmx-schema/blob/65a6fbb/src/schema.ts#L65">schema.ts:65</a></li>
+							<li>Defined in <a href="https://github.com/micahswitzer/vmmx-schema/blob/0c17581/src/schema.ts#L65">schema.ts:65</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -153,7 +153,7 @@
 						</a>
 						<pre><code class="language-typescript"><span class="hljs-keyword">let</span> prog: Program;
 <span class="hljs-comment">// invert the muted state of the snare</span>
-prog.state.mute.snare = !prog.state.mute.snare;</code></pre>
+prog.state.machine.mute.snare = !prog.state.machine.mute.snare;</code></pre>
 					</div>
 				</section>
 			</section>
